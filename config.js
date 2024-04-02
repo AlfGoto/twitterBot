@@ -1,9 +1,10 @@
-module.exports = {
-    consumer_key: 'q4lUyevq5brBn9SokJtTdN5DG',
-    consumer_secret: 'I5bTjR6OdDah4yGFIhOsiA6Z5TyDjOShS86Etkv4UvHqHjGaYP',
-    access_token: '1775088490914443264-7H9VjAnVHI5RYMH3qAvDgXJGcij5ez',
-    access_token_secret: 'PSDc57SsqyX51gIqxyvYc5t1CBcUBL6jsiAFMHG7indkn'
-}
+class Config{
+    consumer_key = 'q4lUyevq5brBn9SokJtTdN5DG'
+    consumer_secret = 'I5bTjR6OdDah4yGFIhOsiA6Z5TyDjOShS86Etkv4UvHqHjGaYP'
+    access_token = '1775088490914443264-7H9VjAnVHI5RYMH3qAvDgXJGcij5ez'
+    access_token_secret=  'PSDc57SsqyX51gIqxyvYc5t1CBcUBL6jsiAFMHG7indkn'
+
+} 
 
 
 //api key : q4lUyevq5brBn9SokJtTdN5DG
