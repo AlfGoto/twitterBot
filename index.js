@@ -8,15 +8,19 @@ const client = new TwitterApi({
     appSecret: conf.appSecret,
     accessToken: conf.accessToken,
     accessSecret: conf.accessSecret,
-    bearerToken:conf.bearerToken,
+    bearerToken: conf.bearerToken,
 });
 const rwClient = client.readWrite;
-const textTweet = async () => {
+
+
+
+const textTweet = async (arg) => {
     try {
-      await rwClient.v2.tweet({text:"C'est quand même plus simple de tweeter sur mon tel que via node.js mais bon"});
-      console.log("success");
-    } catch (error) {
-      console.error(error);
-    }
+        await rwClient.v2.tweet({ text: arg });
+    } catch (error) { console.error(error); }
 };
-textTweet()
+textTweet('salut Marco lpb')
+
+
+
+// let response = await rwClient.v2.tweets.
