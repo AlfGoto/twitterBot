@@ -1,1 +1,0 @@
-import Twitter from 'config.js'
